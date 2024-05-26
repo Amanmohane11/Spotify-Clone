@@ -1,0 +1,44 @@
+.flex{
+    display: flex;
+}
+.justify-content{
+    justify-content: center;
+}
+.item-center{
+align-items: center;
+}
+/* For webkit-based browsers like Chrome, Safari, and newer versions of Edge */
+/* You may need to adjust these styles for other browsers */
+
+/* Track */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #000000; /* Color of the scrollbar handle */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555555; /* Darker color when hovered */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #333333; /* Color of the scrollbar track */
+}
+
+/* Corner */
+::-webkit-scrollbar-corner {
+    background: #121212; /* Color of the scrollbar corner (if visible) */
+}
+/* body{ */
+    /* position: fixed; */
+/* } */
+body{
+    padding: 0;
+    margin: 0;
+}
